@@ -1,0 +1,713 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,600');
+
+
+.bp2-facergnsphone {
+  width               : 100%;
+  min-width           : 320px;
+  height              : 100vh;
+  min-height          : 1024px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp2-facergnsphone .bp2-video {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 144px;
+  height              : 237px;
+  width               : 306px;
+  position            : fixed;
+  margin              : 0;
+  left                : 11px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  overflow            : hidden;
+}
+.bp2-facergnsphone .bp2-facerecognition {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 82px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 30px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 20.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.46px;
+  line-height         : 30.0px;
+}
+.bp2-facergnsphone .bp2-uploadbtn {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 364px;
+  height              : 84px;
+  width               : 167px;
+  position            : fixed;
+  margin              : 0;
+  left                : 150px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-facergnsphone .bp2-uploadbtn .bp2-video1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 84px;
+  width               : 167px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-facergnsphone .bp2-uploadbtn .bp2-uf22a {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 22px;
+  height              : 15px;
+  width               : 12px;
+  position            : absolute;
+  margin              : 0;
+  left                : 72px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-facergnsphone .bp2-uploadbtn .bp2-upload {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 37px;
+  height              : auto;
+  width               : 66px;
+  position            : absolute;
+  margin              : 0;
+  left                : 45px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.32px;
+  line-height         : 21.0px;
+}
+.bp2-facergnsphone .bp2-pausebtn {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 364px;
+  height              : 84px;
+  width               : 167px;
+  position            : fixed;
+  margin              : 0;
+  left                : 11px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-facergnsphone .bp2-pausebtn .bp2-video1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 84px;
+  width               : 167px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-facergnsphone .bp2-pausebtn .bp2-uf3a7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 24px;
+  height              : 12px;
+  width               : 11px;
+  position            : absolute;
+  margin              : 0;
+  left                : 72px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-facergnsphone .bp2-pausebtn .bp2-pause {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 37px;
+  height              : auto;
+  width               : 67px;
+  position            : absolute;
+  margin              : 0;
+  left                : 45px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.32px;
+  line-height         : 21.0px;
+}
+.bp2-facergnsphone .bp2-listview {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 457px;
+  height              : 567px;
+  width               : 306px;
+  position            : absolute;
+  margin              : 0;
+  left                : 11px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-facergnsphone .bp2-output {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 490px;
+  height              : 80px;
+  width               : 201px;
+  position            : absolute;
+  margin              : 0;
+  left                : 46px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-facergnsphone .bp2-output .bp2-imgplaceholder {
+  background-color    : rgba(243, 243, 243, 1.0);
+  top                 : 0px;
+  height              : 80px;
+  width               : 115px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp2-facergnsphone .bp2-output .bp2-name {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 129px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.27px;
+  line-height         : 18.0px;
+}
+.bp2-facergnsphone .bp2-output .bp2-timestamp {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 28px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 130px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.27px;
+  line-height         : 18.0px;
+}
+.bp2-facergnsphone .bp2-output .bp2-count {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 56px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 130px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 12.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.27px;
+  line-height         : 18.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.bp1-facergns {
+  width               : 100%;
+  min-width           : 1280px;
+  height              : 100vh;
+  min-height          : 850px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.bp1-facergns .bp1-listview {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 215px;
+  height              : 726px;
+  width               : 423px;
+  position            : absolute;
+  margin              : 0;
+  left                : 740px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-facergns .bp1-video {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 215px;
+  height              : 326px;
+  width               : 534px;
+  position            : absolute;
+  margin              : 0;
+  left                : 146px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  overflow            : hidden;
+}
+.bp1-facergns .bp1-output {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 248px;
+  height              : 80px;
+  width               : 225px;
+  position            : absolute;
+  margin              : 0;
+  left                : 771px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-facergns .bp1-output .bp1-imgplaceholder {
+  background-color    : rgba(243, 243, 243, 1.0);
+  top                 : 0px;
+  height              : 80px;
+  width               : 115px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-facergns .bp1-output .bp1-name {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 129px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.37px;
+  line-height         : 25.0px;
+}
+.bp1-facergns .bp1-output .bp1-timestamp {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 29px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 130px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.37px;
+  line-height         : 25.0px;
+}
+.bp1-facergns .bp1-output .bp1-count {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 57px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 130px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  letter-spacing      : 0.37px;
+  line-height         : 25.0px;
+}
+.bp1-facergns .bp1-facerecognition {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 132px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 164px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 40.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.92px;
+  line-height         : 60.0px;
+}
+.bp1-facergns .bp1-logosynapse {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 140px;
+  height              : 40px;
+  width               : 162px;
+  position            : absolute;
+  margin              : 0;
+  left                : 948px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-facergns .bp1-uploadbtn {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 540px;
+  height              : 123px;
+  width               : 279px;
+  position            : absolute;
+  margin              : 0;
+  left                : 401px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-facergns .bp1-uploadbtn .bp1-video1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 123px;
+  width               : 279px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-facergns .bp1-uploadbtn .bp1-uf22a {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 29px;
+  height              : 27px;
+  width               : 23px;
+  position            : absolute;
+  margin              : 0;
+  left                : 121px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-facergns .bp1-uploadbtn .bp1-upload {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 67px;
+  height              : auto;
+  width               : 121px;
+  position            : absolute;
+  margin              : 0;
+  left                : 74px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.32px;
+  line-height         : 21.0px;
+}
+.bp1-facergns .bp1-pausebtn {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 540px;
+  height              : 123px;
+  width               : 279px;
+  position            : absolute;
+  margin              : 0;
+  left                : 146px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-facergns .bp1-pausebtn .bp1-video1 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 123px;
+  width               : 279px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-facergns .bp1-pausebtn .bp1-uf3a7 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 30px;
+  height              : 23px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 123px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.bp1-facergns .bp1-pausebtn .bp1-pause {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 67px;
+  height              : auto;
+  width               : 121px;
+  position            : absolute;
+  margin              : 0;
+  left                : 74px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Poppins", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 14.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  letter-spacing      : 0.32px;
+  line-height         : 21.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@media screen and (max-width: 1279px) {
+  .bp2-facergnsphone {
+    display             : block;
+  }
+  .bp1-facergns {
+    display             : none;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .bp2-facergnsphone {
+    display             : none;
+  }
+  .bp1-facergns {
+    display             : block;
+  }
+}

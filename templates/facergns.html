@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- <link href="./img/favicon.png" rel="shortcut icon"/>
+        <meta charset="utf-8"/>
+        <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0" name="viewport"/>
+        <link href="./css/facergns.css" rel="stylesheet" type="text/css"/>
+        <meta content="Launchpad by Anima" name="author"> -->
+
+        <link href="{{ url_for('static', filename='img/favicon.png') }}" rel="shortcut icon"/>
+
+        <meta charset="utf-8"/>
+        <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0" name="viewport"/>
+        <!-- <link href="./css/facergns.css" rel="stylesheet" type="text/css"/> -->
+        <link rel="stylesheet" href="{{ url_for('static', filename='facergns.css') }}">
+        <meta content="Launchpad by Anima" name="author">
+
+        </meta>
+    </head>
+    <body style="margin: 0;
+ background: rgba(255, 255, 255, 1.0);">
+        <input id="anPageName" name="page" type="hidden" value="facergns"/>
+        <div class="bp2-facergnsphone">
+            <div style="width: 320px; height: 100%; position:relative; margin:auto;">
+                <div class="bp2-video">
+                    <img src="{{ url_for('video_feed') }}">
+                </div>
+                <div class="bp2-facerecognition">
+                    Face Recognition
+                </div>
+                <div class="bp2-uploadbtn">
+                    <img anima-src="{{ url_for('static', filename='img/facergnsphone-video@2x.png') }}" height="{{query_img_height}}" width="{{query_img_width}}">
+
+                    <img anima-src="static/img/facergnsphone-video@2x.png" class="bp2-video1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <img anima-src="static/img/facergnsphone-uf22a@2x.png" class="bp2-uf22a" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <div class="bp2-upload">
+                        upload
+                    </div>
+                </div>
+                <div class="bp2-pausebtn">
+                   
+                    <img src="static/img/facergnsphone-video@2x.png" class="bp2-video1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+
+                    <img src="static/img/facergnsphone-uf3a7@2x.png" class="bp2-uf3a7" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+
+
+                    <div class="bp2-pause">
+                        pause
+                    </div>
+                </div>
+                <img anima-src="static/img/facergnsphone-listview.png" class="bp2-listview" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                
+                <div class="bp2-output">
+                    {% extends 'base.html' %}
+
+                        {% block content %}
+                            <div class="chat-container" style="overflow: auto; max-height: 80vh">
+                                <div class="table-responsive">
+                                    <table class="table" id="flights">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Flight</th>
+                                                <th scope="col">Destination</th>
+                                                <th scope="col">Check in</th>
+                                                <th scope="col">departure</th>
+                                                <th scope="col">Status</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                        {% for nama in names %}
+                                            <tr id={{ nama.id }}>
+                                                <th scope="row">{{ nama.nameA }}</th>
+                                                <td> {{nama.positionA }} </td>
+                                                <td> {{ nama.departure }} </td>
+                                                <td> {{ nama.status }} </td>
+                                            </tr>
+                                        {% endfor %}
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        
+                </div>
+            </div>
+        </div>
+        <div class="bp1-facergns">
+            <div style="width: 1280px; height: 100%; position:relative; margin:auto;">
+                <img anima-src="static/img/facergns-listview.png" class="bp1-listview" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                <div class="bp1-video">
+                    <img src="{{ url_for('video_feed') }}">
+                </div>
+                <div class="bp1-output">
+
+                        
+                            <div class="chat-container" style="overflow: auto; max-height: 80vh">
+                                <div class="table-responsive">
+                                    <table class="table" id="flights">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Flight</th>
+                                                <th scope="col">Destination</th>
+                                                <th scope="col">Check in</th>
+                                                <th scope="col">departure</th>
+                                                <th scope="col">Status</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                        {% for nama in names %}
+                                            <tr id={{ nama.id }}>
+                                                <th scope="row">{{ nama.nameA }}</th>
+                                                <td> {{nama.positionA }} </td>
+                                                <td> {{ nama.departure }} </td>
+                                                <td> {{ nama.status }} </td>
+                                            </tr>
+                                        {% endfor %}
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        {% endblock %}
+                </div>
+                <div class="bp1-facerecognition">
+                    Face Recognition
+                </div>
+                <a href="index.html">
+                    <img anima-src="static/img/facergns-logo-synapse@2x.png" class="bp1-logosynapse" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                </a>
+                <div class="bp1-uploadbtn">
+                    <img anima-src="static/img/facergns-video@2x.png" class="bp1-video1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <img anima-src="static/img/facergns-uf22a@2x.png" class="bp1-uf22a" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <div class="bp1-upload">
+                        upload
+                    </div>
+                </div>
+                <div class="bp1-pausebtn">
+                    <img anima-src="static/img/facergns-video@2x.png" class="bp1-video1" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <img anima-src="static/img/facergns-uf3a7@2x.png" class="bp1-uf3a7" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="/>
+                    <div class="bp1-pause">
+                        pause
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Scripts -->
+        <script>
+            anima_isHidden = function(e) {
+                if (!(e instanceof HTMLElement)) return !1;
+                if (getComputedStyle(e).display == "none") return !0; else if (e.parentNode && anima_isHidden(e.parentNode)) return !0;
+                return !1;
+            };
+            anima_loadAsyncSrcForTag = function(tag) {
+                var elements = document.getElementsByTagName(tag);
+                var toLoad = [];
+                for (var i = 0; i < elements.length; i++) {
+                    var e = elements[i];
+                    var src = e.getAttribute("src");
+                    var loaded = (src != undefined && src.length > 0 && src != 'data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==');
+                    if (loaded) continue;
+                    var asyncSrc = e.getAttribute("anima-src");
+                    if (asyncSrc == undefined || asyncSrc.length == 0) continue;
+                    if (anima_isHidden(e)) continue;
+                    toLoad.push(e);
+                }
+                toLoad.sort(function(a, b) {
+                    return anima_getTop(a) - anima_getTop(b);
+                });
+                for (var i = 0; i < toLoad.length; i++) {
+                    var e = toLoad[i];
+                    var asyncSrc = e.getAttribute("anima-src");
+                    e.setAttribute("src", asyncSrc);
+                }
+            };
+            anima_pauseHiddenVideos = function(tag) {
+                var elements = document.getElementsByTagName("video");
+                for (var i = 0; i < elements.length; i++) {
+                    var e = elements[i];
+                    var isPlaying = !!(e.currentTime > 0 && !e.paused && !e.ended && e.readyState > 2);
+                    var isHidden = anima_isHidden(e);
+                    if (!isPlaying && !isHidden && e.getAttribute("autoplay") == "autoplay") {
+                        e.play();
+                    } else if (isPlaying && isHidden) {
+                        e.pause();
+                    }
+                }
+            };
+            anima_loadAsyncSrc = function(tag) {
+                anima_loadAsyncSrcForTag("img");
+                anima_loadAsyncSrcForTag("iframe");
+                anima_loadAsyncSrcForTag("video");
+                anima_pauseHiddenVideos();
+            };
+            var anima_getTop = function(e) {
+                var top = 0;
+                do {
+                    top += e.offsetTop || 0;
+                    e = e.offsetParent;
+                } while (e);
+                return top;
+            };
+            anima_loadAsyncSrc();
+            anima_old_onResize = window.onresize;
+            anima_new_onResize = undefined;
+            anima_updateOnResize = function() {
+                if (anima_new_onResize == undefined || window.onresize != anima_new_onResize) {
+                    anima_new_onResize = function(x) {
+                        if (anima_old_onResize != undefined) anima_old_onResize(x);
+                        anima_loadAsyncSrc();
+                    };
+                    window.onresize = anima_new_onResize;
+                    setTimeout(function() {
+                        anima_updateOnResize();
+                    }, 3000);
+                }
+            };
+            anima_updateOnResize();
+            setTimeout(function() {
+                anima_loadAsyncSrc();
+            }, 200);
+        </script>
+        <!-- End of Scripts -->
+    </body>
+</html>
